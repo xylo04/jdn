@@ -1,0 +1,21 @@
+Source: golang-github-leemcloughlin-jdn
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Chris Keller <xylo04@gmail.com>
+Section: devel
+Testsuite: autopkgtest-pkg-go
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-golang,
+               golang-any
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-leemcloughlin-jdn
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-leemcloughlin-jdn.git
+Homepage: https://github.com/leemcloughlin/jdn
+Rules-Requires-Root: no
+XS-Go-Import-Path: github.com/leemcloughlin/jdn
+
+Package: golang-github-leemcloughlin-jdn-dev
+Architecture: all
+Depends: ${misc:Depends}
+Description: Julian Day Numbers for Go (library)
+ Julian Day Numbers library for Go. Converts to and from Julian days.

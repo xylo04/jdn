@@ -1,0 +1,5 @@
+golang-github-leemcloughlin-jdn (0.0~git20201102.6f88db6-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: 975586)
+
+ -- Chris Keller <xylo04@gmail.com>  Mon, 23 Nov 2020 13:47:52 -0700
